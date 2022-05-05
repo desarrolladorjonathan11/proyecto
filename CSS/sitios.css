@@ -9,30 +9,51 @@ body {
     padding: 0px;
 }
 
-body {
-    height: 100%;
-    width: 100%;
+header {
+    background-color: rgb(68, 68, 236);
 }
 
-.main-body {
-    background-color: skyblue;
-    color: rgb(14, 14, 83);
-}
-
-.FIRSTSHOWCASE {
-    width: 100%;
-    height: 240px;
-    background: url(../IMAGES/FIRST\ SHOWCASE.JPG) center, no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background: position 100%;
-    padding: 0px;
-    margin-bottom: 0px;
+.logo {
     display: flex;
+    align-items: center;
+    margin-right: 50px;
+    padding-left: 17%;
+    padding-top: 2%;
+    margin: 0;
+}
+
+.logo img {
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 0;
+    padding-top: 30px;
+    padding-left: 0.5%;
+    padding-bottom: 1%;
+    text-align: left;
+    align-items: left;
+    display: flex;
+}
+
+h2 {
+    font-size: 120px;
+    text-align: left;
+    align-items: left;
+    font-family: 'pacifico',
+        'cursive';
+    color: aliceblue;
 }
 
 nav {
     width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: cornflowerblue;
+    align-items: center;
+    padding: 7px 0px 12px 0px;
+}
+
+.enuso {
+    color: blue;
 }
 
 a {
@@ -41,19 +62,14 @@ a {
     font-family: 'pacifico', 'cursive';
     font-weight: bolder;
     font-size: 30px;
-    padding-inline: 10px;
+    padding: 30px;
 }
 
 ul {
     list-style: none;
 }
 
-.container {
-    width: 100%;
-    margin: 0%;
-}
 
-/* Navigation */
 .nav-main {
     font-size: x-large;
     display: flex;
@@ -66,38 +82,24 @@ ul {
     color: white;
 }
 
-.nav-brand {
-    width: 300px;
-}
-
-/* NAV LEFT */
-.nav-main ul {
-    display: flex;
-}
-
-.nav-main ul li {
-    padding: 27px;
-}
 
 .nav-main ul li a:hover {
     border-bottom: 2px solid white;
 }
 
-.social {
-    font-family: 'pacifico', 'cursive';
+body {
+    background-color: skyblue;
+    color: rgb(14, 14, 83);
 }
 
-/*social */
+
+/*----------------footer-------------- */
 .social {
     margin: 20px;
+    font-family: 'pacifico',
+        'cursive';
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
     margin-top: 60px;
-}
-
-.imagenessitios{
-    width: 50%;
-    height: 50%;
-    align-items: center;
 }
