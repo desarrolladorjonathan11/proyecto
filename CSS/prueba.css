@@ -573,7 +573,6 @@ body {
   margin-left: 0%; }
 
 .social {
-  display: inline-block;
   margin: 20px;
   font-family: 'pacifico', 'cursive';
   text-align: center;
@@ -689,8 +688,7 @@ iframe {
   text-align: center;
   font-size: 25px;
   margin-bottom: 10px;
-  margin-top: 60px;
-  border-bottom: 2px solid white; }
+  margin-top: 60px; }
 
 .social div a i:hover {
   color: #4444ec; }
