@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(68, 68, 236);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    padding-left: 17%;
+    padding-top: 2%;
+    margin: 0;
+}
+
+.logo img {
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 0;
+    padding-top: 30px;
+    padding-left: 0.5%;
+    padding-bottom: 1%;
+    text-align: left;
+    align-items: left;
+    display: flex;
+}
+
+h2 {
+    font-size: 120px;
+    text-align: left;
+    align-items: left;
+    font-family: 'pacifico',
+        'cursive';
+    color: aliceblue;
+}

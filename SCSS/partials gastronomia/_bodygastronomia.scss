@@ -1,0 +1,69 @@
+body {
+    background-color: skyblue;
+    color: rgb(14, 14, 83);
+}
+
+.image {
+    position: relative;
+    width: 410px;
+    max-width: 100%;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.image1 {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: "pacifico";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.image-overlay>* {
+    transform: translateY(20px);
+    transition: transform 0.4s;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+}
+
+.image-overlay:hover>* {
+    transform: translateY(0);
+}
+
+
+.image-title {
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.image-description {
+    font-size: 1.25em;
+    margin-top: 1.25em;
+}
+
+.primerdescripcion {
+    margin-left: 0%;
+}
