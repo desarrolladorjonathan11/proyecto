@@ -1,23 +1,14 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
 
-    .menu-btn {
-        display: block;
-    }
 
-    .nav-main {
+    .a {
         display: block;
-        position: absolute;
+        align-items: center;
         top: 0;
         left: 0px;
         background: #222681;
         height: 100%;
         padding: 30px;
-        opacity: .9;
-        transform: translateX(-400px);
-    }
-
-    .SHOWCASE {
-        display: none;
     }
 
     iframe {

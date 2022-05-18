@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400&family=Pacifico&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
@@ -11,6 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 html,
+
 body {
   margin: 0px;
   padding: 0px; }
@@ -38,10 +39,11 @@ header {
   display: flex; }
 
 h2 {
-  font-size: 120px;
+  font-size: 100px;
   text-align: left;
   align-items: left;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   color: aliceblue; }
 
 nav {
@@ -50,7 +52,8 @@ nav {
   text-align: center;
   background-color: cornflowerblue;
   align-items: center;
-  padding: 7px 0px 12px 0px; }
+  padding: 7px 0px 12px 0px; 
+}
 
 .enuso {
   color: blue; }
@@ -61,7 +64,8 @@ a {
   font-family: 'pacifico', 'cursive';
   font-weight: bolder;
   font-size: 30px;
-  padding: 30px; }
+  padding: 30px; 
+}
 
 ul {
   list-style: none; }
@@ -80,13 +84,15 @@ ul {
 .nav-main ul li a:hover {
   border-bottom: 2px solid white; }
 
+  
 body {
   background-color: skyblue;
   color: #0e0e53; }
 
 .social {
   margin: 20px;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   text-align: center;
   font-size: 25px;
   margin-bottom: 10px;
@@ -123,7 +129,8 @@ h2 {
   font-size: 120px;
   text-align: left;
   align-items: left;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   color: aliceblue; }
 
 nav {
@@ -179,7 +186,8 @@ legend {
 
 .social {
   margin: 20px;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   text-align: center;
   font-size: 25px;
   margin-bottom: 10px;
@@ -216,7 +224,8 @@ h2 {
   font-size: 120px;
   text-align: left;
   align-items: left;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   color: aliceblue; }
 
 nav {
@@ -261,7 +270,8 @@ body {
 
 .social {
   margin: 20px;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   text-align: center;
   font-size: 25px;
   margin-bottom: 10px;
@@ -298,7 +308,8 @@ h2 {
   font-size: 120px;
   text-align: left;
   align-items: left;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   color: aliceblue; }
 
 nav {
@@ -343,7 +354,8 @@ body {
 
 .social {
   margin: 20px;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   text-align: center;
   font-size: 25px;
   margin-bottom: 10px;
@@ -380,7 +392,8 @@ h2 {
   font-size: 120px;
   text-align: left;
   align-items: left;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   color: aliceblue; }
 
 nav {
@@ -425,7 +438,8 @@ body {
 
 .social {
   margin: 20px;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   text-align: center;
   font-size: 25px;
   margin-bottom: 10px;
@@ -590,7 +604,8 @@ body {
 
 .social {
   margin: 20px;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   text-align: center;
   font-size: 25px;
   margin-bottom: 10px;
@@ -635,7 +650,8 @@ h2 {
   font-size: 120px;
   text-align: left;
   align-items: left;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   color: aliceblue; }
 
 nav {
@@ -693,14 +709,21 @@ body {
 .leermas:hover {
   color: whitesmoke; }
 
-iframe {
+iframe.video {
   margin-top: 60px;
   margin-left: 29%;
   align-items: center; }
 
+footer iframe.mapa{
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+  }
+
 .social {
   margin: 20px;
-  font-family: 'pacifico', 'cursive';
+  font-family: 'pacifico',
+ 'cursive';
   text-align: center;
   font-size: 25px;
   margin-bottom: 10px;
@@ -730,4 +753,4 @@ iframe {
     margin: auto;
     width: 80%;
     padding-top: 100px;
-    display: flex; } }
+    display: flex; } } */

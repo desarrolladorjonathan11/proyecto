@@ -1,17 +1,9 @@
-nav {
-    width: 100%;
-    justify-content: space-evenly;
-    text-align: center;
-    background-color: cornflowerblue;
-    align-items: center;
-    padding: 7px 0px 12px 0px;
-}
 
 .enuso {
     color: blue;
 }
 
-a {
+.hipervinculos {
     color: white;
     text-decoration: none;
     font-family: 'pacifico', 'cursive';
@@ -20,23 +12,10 @@ a {
     padding: 30px;
 }
 
-ul {
-    list-style: none;
-}
-
-
-.nav-main {
-    font-size: x-large;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 30px;
-    padding: 15px 0px;
-    border: 4px solid black;
-    background-color: rgb(14, 14, 83);
+.navbarbrand {
     color: white;
+    font-size: 5px;
 }
-
 
 .nav-main ul li a:hover {
     border-bottom: 2px solid white;

@@ -1,6 +1,8 @@
+@import "_variables.scss";
+
 body {
-    background-color: skyblue;
-    color: rgb(14, 14, 83);
+    background-color:$colorfondo;
+    color: $colorletra;
 }
 
 
